@@ -1,0 +1,79 @@
+{
+    "main_page": {
+        "url": "https://www.aonsrd.com"
+    },
+    "equipment_page": {
+        "url": "https://www.aonsrd.com/Equipment.aspx",
+        "link_text": "Equipment",
+        "categories": {
+            "armor": {
+                "url": "https://www.aonsrd.com/Armor.aspx?ItemName=All",
+                "link_text": "Armor",
+                "categories": {
+                    "light_armor": {
+                        "url": "https://www.aonsrd.com/Armor.aspx?Category=Light",
+                        "link_text": "Light Armor"
+                    },
+                    "heavy_armor": {
+                        "url": "https://www.aonsrd.com/Armor.aspx?Category=Heavy",
+                        "link_text": "Heavy Armor"
+                    },
+                    "armor_upgrades": {
+                        "url": "https://www.aonsrd.com/ArmorUpgrades.aspx?ItemName=All&Family=None",
+                        "link_text": "Armor Upgrades"
+                    }
+                }
+            },
+            "weapons": {
+                "url": "https://www.aonsrd.com/Weapons.aspx?ItemName=All",
+                "link_text": "Weapons",
+                "categories": {
+                    "advanced_melee": {
+                        "url": "https://www.aonsrd.com/Weapons.aspx?Proficiency=AdvMelee",
+                        "link_text": "Advanced Melee"
+                    },
+                    "ammunition": {
+                        "url": "https://www.aonsrd.com/Weapons.aspx?Proficiency=Ammo",
+                        "link_text": "Ammunition"
+                    },
+                    "basic_melee": {
+                        "url": "https://www.aonsrd.com/Weapons.aspx?Proficiency=BasicMelee",
+                        "link_text": "Basic Melee"
+                    },
+                    "grenade": {
+                        "url": "https://www.aonsrd.com/Weapons.aspx?Proficiency=Grenade",
+                        "link_text": "Grenade"
+                    },
+                    "heavy": {
+                        "url": "https://www.aonsrd.com/Weapons.aspx?Proficiency=Heavy",
+                        "link_text": "Heavy"
+                    },
+                    "longarms": {
+                        "url": "https://www.aonsrd.com/Weapons.aspx?Proficiency=Longarms",
+                        "link_text": "Longarms"
+                    },
+                    "small_arms": {
+                        "url": "https://www.aonsrd.com/Weapons.aspx?Proficiency=SmallArms",
+                        "link_text": "Small Arms"
+                    },
+                    "sniper": {
+                        "url": "https://www.aonsrd.com/Weapons.aspx?Proficiency=Sniper",
+                        "link_text": "Sniper"
+                    },
+                    "solarian": {
+                        "url": "https://www.aonsrd.com/Weapons.aspx?Proficiency=Solarian",
+                        "link_text": "Solarian"
+                    },
+                    "special": {
+                        "url": "https://www.aonsrd.com/Weapons.aspx?Proficiency=Special",
+                        "link_text": "Special"
+                    },
+                    "weapon_accessories": {
+                        "url": "https://www.aonsrd.com/WeaponAccessories.aspx?ItemName=All&Family=None",
+                        "link_text": "Weapon Accessories"
+                    }
+                }
+            }
+        }
+    }
+}
