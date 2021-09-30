@@ -432,6 +432,15 @@ class EquipmentRandomizer():
             for category_name in settings['categories'].keys():
                 settings['categories'][category_name] = True
 
+        # Do bounds checking on the lowest and highest levels, and adjust as
+        # needed
+        if settings['lowest_level'] < 1:
+            settings['lowest_level'] = 1
+        if settings['highest_level'] > 20:
+            settings['highest_level'] = 20
+        if settings['lowest_level'] > settings['highest_level']:
+            settings['lowest_level'] = settings['highest_level']
+
         return settings
     # end parse_args
 
