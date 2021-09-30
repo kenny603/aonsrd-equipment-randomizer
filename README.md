@@ -10,47 +10,52 @@ I would not recommend this script for general purpose. Again, this was just a wa
 The script assumes that you already have the gecko webdriver, Python 3, and the Python libraries for Selenium installed. Copy the aonsrd_equipment_randomizer.py and equipment_definitions.json files to a directory of your choice.
 
 ## Usage
-usage: Get a random sampling of Starfinder items [-h] [--armor]
-                                                 [--light-armor]
-                                                 [--heavy-armor]
-                                                 [--armor-upgrades]
-                                                 [--weapons]
-                                                 [--advanced-melee]
-                                                 [--ammunition]
-                                                 [--basic-melee] [--grenade]
-                                                 [--heavy-weapon] [--longarms]
-                                                 [--small-arms] [--sniper]
-                                                 [--solarian] [--special]
-                                                 [--weapon-accessories]
-                                                 [--number-of-items NUMBER_OF_ITEMS]
-                                                 [--lowest-level LOWEST_LEVEL]
-                                                 [--highest-level HIGHEST_LEVEL]
-                                                 [--seed SEED] [--debug]
-
 optional arguments:
-  -h, --help            show this help message and exit
-  --armor               Select from light armor, heavy armor, and armor
+<br/>
+  **-h, --help**            show this help message and exit
+<br/>
+  **--armor**               Select from light armor, heavy armor, and armor
                         upgrades.
-  --light-armor         Select from light armor.
-  --heavy-armor         Select from heavy armor.
-  --armor-upgrades      Select from armor upgrades.
-  --weapons             Select from all weapon types, ammo, and accessories.
-  --advanced-melee      Select from advanced melee weapons.
-  --ammunition          Select from ammunition.
-  --basic-melee         Select from basic melee weapons.
-  --grenade             Select from grenades.
-  --heavy-weapon        Select from heavy weapons.
-  --longarms            Select from longarm weapons.
-  --small-arms          Select from small arm weapons.
-  --sniper              Select from sniper weapons.
-  --solarian            Select from solarian weapon crytals.
-  --special             Select from special weapons.
-  --weapon-accessories  Select from weapon accessories.
-  --number-of-items NUMBER_OF_ITEMS, -n NUMBER_OF_ITEMS
-                        Number of items to select.
-  --lowest-level LOWEST_LEVEL
+<br/>
+  **--light-armor**         Select from light armor.
+<br/>
+  **--heavy-armor**         Select from heavy armor.
+<br/>
+  **--armor-upgrades**      Select from armor upgrades.
+<br/>
+  **--weapons**             Select from all weapon types, ammo, and accessories.
+<br/>
+  **--advanced-melee**      Select from advanced melee weapons.
+<br/>
+  **--ammunition**          Select from ammunition.
+<br/>
+  **--basic-melee**         Select from basic melee weapons.
+<br/>
+  **--grenade**             Select from grenades.
+<br/>
+  **--heavy-weapon**        Select from heavy weapons.
+<br/>
+  **--longarms**            Select from longarm weapons.
+<br/>
+  **--small-arms**          Select from small arm weapons.
+<br/>
+  **--sniper**              Select from sniper weapons.
+<br/>
+  **--solarian**            Select from solarian weapon crytals.
+<br/>
+  **--special**             Select from special weapons.
+<br/>
+  **--weapon-accessories**  Select from weapon accessories.
+<br/>
+  **--number-of-items NUMBER_OF_ITEMS, -n NUMBER_OF_ITEMS**
+                        Number of items to select. Default is 10.
+<br/>
+  **--lowest-level LOWEST_LEVEL**
                         Lowest level of item to select from. Default is 1.
-  --highest-level HIGHEST_LEVEL
+<br/>
+  **--highest-level HIGHEST_LEVEL**
                         Highest level of item to select from. Default is 20.
-  --seed SEED           Seed for the random number generator.
-  --debug, -d           Enables debug messaging.
+<br/>
+  **--seed SEED**           Seed for the random number generator.
+<br/>
+  **--debug, -d**           Enables debug messaging.
